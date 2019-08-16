@@ -22,4 +22,9 @@ public class GameManager : MonoBehaviour
         // Load the next scene after current scene
         SceneManager.LoadScene(currentScene.buildIndex);
     }
+
+    public void GoBack()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
